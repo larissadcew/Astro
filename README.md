@@ -50,9 +50,7 @@
     ```bash
     git clone https://github.com/larissadcew/movie-recommendation-system
     ```
-    ```
-     pip install -r requirements.txt
-  ```
+
 2. Run Django migrations and start the server:
     ```bash
     python manage.py migrate
