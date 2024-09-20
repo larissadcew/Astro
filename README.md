@@ -48,7 +48,7 @@
 ## ⚙️ Installation and Setup
 1. Clone this repository:
     ```bash
-    git clone https://github.com/larissadcew/movie-recommendation-system
+    git clone https://github.com/larissadcew/Astro
     ```
 
 2. Run Django migrations and start the server:
