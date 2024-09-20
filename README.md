@@ -45,6 +45,19 @@
   </li>
 </ol>
 
+## ⚙️ Installation and Setup
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/larissadcew/movie-recommendation-system
+    ```
+    pip install -r requirements.txt
+    ```
+2. Run Django migrations and start the server:
+    ```bash
+    python manage.py migrate
+    python manage.py runserver
+    ```
+
 <h2>⚙️ Additional Features</h2>
 <p>
   <strong>Notification System:</strong> Personalized alerts via email or SMS to notify users about astronomical events in their location. 📧📱
