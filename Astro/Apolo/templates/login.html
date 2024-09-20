@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container mt-5">
+    <h2 class="text-center">Login</h2>
+    <form>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" class="form-control" id="password" placeholder="Digite sua senha" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+        <p class="mt-3 text-center">Não tem uma conta? <a href="{% url 'Register' %}">Registrar</a></p>
+    </form>
+</div>
+{% endblock %}

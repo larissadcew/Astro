@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block body %}
+<header class="text-center p-4">
+    <h1>🌌 Projeto de Eventos Astronômicos</h1>
+    <p>Descubra os próximos fenômenos astronômicos!</p>
+</header>
+
+<main class="container mt-5">
+    <section>
+        <h2>Próximos Eventos</h2>
+        <div class="row">
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Eclipse Solar</h5>
+                        <p class="card-text">Data: 10 de Junho de 2024</p>
+                        <p class="card-text">Local: Brasil</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Passagem de Cometa</h5>
+                        <p class="card-text">Data: 15 de Julho de 2024</p>
+                        <p class="card-text">Local: Internacional</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Chuva de Meteoros</h5>
+                        <p class="card-text">Data: 21 de Agosto de 2024</p>
+                        <p class="card-text">Local: Global</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+{% endblock %}
